@@ -24,8 +24,8 @@ const LOCAL_VIDEO_DOMAIN_URL = '$DOMAIN_URL/storage/streamit-laravel/';
 //region STRIPE
 const STRIPE_URL = 'https://api.stripe.com/v1/payment_intents';
 const STRIPE_merchantIdentifier = "merchant.flutter.stripe.test";
-const STRIPE_MERCHANT_COUNTRY_CODE = 'IN';
-const STRIPE_CURRENCY_CODE = 'INR';
+const STRIPE_MERCHANT_COUNTRY_CODE = 'US';
+const STRIPE_CURRENCY_CODE = 'USD';
 //endregion
 
 //region RazorPay
@@ -58,9 +58,9 @@ Country get defaultCountry => Country(
       level: 1,
       name: 'India',
       example: '23456789',
-      displayName: 'India (IN) [+91]',
-      displayNameNoCountryCode: 'India (IN)',
+      displayName: 'Mexico (us) [+52]',
+      displayNameNoCountryCode: 'Mexico (MX)',
       e164Key: '91-IN-0',
-      fullExampleWithPlusSign: '+919123456789',
+      fullExampleWithPlusSign: '+5266456789099',
     );
 //endregion
