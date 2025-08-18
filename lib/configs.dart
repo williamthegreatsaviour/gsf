@@ -2,7 +2,7 @@
 
 import 'package:country_picker/country_picker.dart';
 
-const APP_NAME = 'gsfilms';
+const APP_NAME = 'streamit';
 const APP_LOGO_URL = '$DOMAIN_URL/img/logo/mini_logo.png';
 const DEFAULT_LANGUAGE = 'en';
 const DASHBOARD_AUTO_SLIDER_SECOND = 6000;
